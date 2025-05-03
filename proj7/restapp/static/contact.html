@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Contact Us - McDonald's</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      background-color: #fffdf3;
+      color: #333;
+    }
+
+    header {
+      background-color: #d70000;
+      color: white;
+      padding: 1rem;
+      text-align: center;
+    }
+
+    .container {
+      max-width: 800px;
+      margin: 2rem auto;
+      padding: 1rem;
+      background-color: white;
+      border-radius: 8px;
+      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    }
+
+    h2 {
+      color: #d70000;
+    }
+
+    .contact-info {
+      margin-bottom: 2rem;
+    }
+
+    .contact-info p {
+      margin: 0.5rem 0;
+    }
+
+    form {
+      display: flex;
+      flex-direction: column;
+    }
+
+    label {
+      margin: 0.5rem 0 0.2rem;
+    }
+
+    input, textarea {
+      padding: 0.6rem;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+      font-size: 1rem;
+    }
+
+    textarea {
+      resize: vertical;
+    }
+
+    button {
+      margin-top: 1rem;
+      background-color: #ffc72c;
+      color: #000;
+      padding: 0.7rem;
+      border: none;
+      border-radius: 4px;
+      font-size: 1rem;
+      cursor: pointer;
+      font-weight: bold;
+    }
+
+    button:hover {
+      background-color: #ffb300;
+    }
+
+    footer {
+      text-align: center;
+      padding: 1rem;
+      margin-top: 2rem;
+      background-color: #f1f1f1;
+      font-size: 0.9rem;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Contact McDonald's</h1>
+  </header>
+
+  <div class="container">
+    <section class="contact-info">
+      <h2>Get in Touch</h2>
+      <p><strong>Address:</strong> McDonald’s India HQ, West Avenue, Mumbai, Maharashtra - 400001</p>
+      <p><strong>Phone:</strong> 1800-123-4567</p>
+      <p><strong>Email:</strong> support@mcdonaldsindia.com</p>
+      <p><strong>Hours:</strong> 10:00 AM - 10:00 PM, All Days</p>
+    </section>
+
+    <section class="feedback-form">
+      <h2>We Value Your Feedback</h2>
+      <form action="#" method="POST">
+        <label for="name">Your Name</label>
+        <input type="text" id="name" name="name" required />
+
+        <label for="email">Your Email</label>
+        <input type="email" id="email" name="email" required />
+
+        <label for="message">Your Feedback</label>
+        <textarea id="message" name="message" rows="5" required></textarea>
+
+        <button type="submit">Submit Feedback</button>
+      </form>
+    </section>
+  </div>
+
+  <footer>
+    &copy; 2025 McDonald's. All rights reserved.<br>
+    Designed and Developed by SHRIRAM VR
+  </footer>
+</body>
+</html>
